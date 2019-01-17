@@ -1,0 +1,7 @@
+D:\OneDrive\C#\HW\HWLinq\HWLinq\bin\Debug\HWLinq.exe.config
+D:\OneDrive\C#\HW\HWLinq\HWLinq\bin\Debug\HWLinq.exe
+D:\OneDrive\C#\HW\HWLinq\HWLinq\bin\Debug\HWLinq.pdb
+D:\OneDrive\C#\HW\HWLinq\HWLinq\obj\Debug\HWLinq.csprojAssemblyReference.cache
+D:\OneDrive\C#\HW\HWLinq\HWLinq\obj\Debug\HWLinq.csproj.CoreCompileInputs.cache
+D:\OneDrive\C#\HW\HWLinq\HWLinq\obj\Debug\HWLinq.exe
+D:\OneDrive\C#\HW\HWLinq\HWLinq\obj\Debug\HWLinq.pdb
