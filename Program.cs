@@ -73,12 +73,24 @@ namespace HWLinq
                 LastDate = g.Max(c => c.Date)
             });
 
+            var res2 = providers.Where(x => x.Amount != 0).GroupBy(x => x.Name, (a, b) => new
+            {
+                Name = a,
+                Amount = b.Sum(c => c.Amount),
+                FirstDate = b.Min(c => c.Date),
+                LastDate = b.Max(c => c.Date)
+            });
+
             Console.WriteLine("Name Ammount FirstDate LastDate");
             foreach (var c in res)
             {
                 Console.WriteLine(c.Name + " " + c.Amount + " " + c.FirstDate.ToString("d") + " " + c.LastDate.ToString("d"));
             }
-             
+            Console.WriteLine("Name Ammount FirstDate LastDate");
+            foreach (var c in res2)
+            {
+                Console.WriteLine(c.Name + " " + c.Amount + " " + c.FirstDate.ToString("d") + " " + c.LastDate.ToString("d"));
+            }
         }
     }
 }
