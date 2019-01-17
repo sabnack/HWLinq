@@ -78,7 +78,7 @@ namespace HWLinq
             {
                 Console.WriteLine(c.Name + " " + c.Amount + " " + c.FirstDate.ToString("d") + " " + c.LastDate.ToString("d"));
             }
-
+             
         }
     }
 }
